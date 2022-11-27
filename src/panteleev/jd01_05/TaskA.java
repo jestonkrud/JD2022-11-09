@@ -7,6 +7,7 @@ public class TaskA {
 
         exercise1();
         exercise2();
+        exercise3();
     }
 
     private static void exercise1() {
@@ -34,5 +35,16 @@ public class TaskA {
         double y = firstNumber - secondNumber + thirdNumber - fourthNumber;
 
         System.out.println(y);
+    }
+
+    private static void exercise3() {
+
+        final double x = 12.1;
+
+        for (double a = -5; a <= 12 ; a=a+3.75) {
+            double f = exp(a*x)-3.45*a;
+
+            System.out.println(f);
+        }
     }
 }
