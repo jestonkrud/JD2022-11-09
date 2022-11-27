@@ -24,5 +24,15 @@ public class TaskA {
 
     private static void exercise2() {
 
+        final double a = 1.21;
+        final double b = 0.371;
+
+        double firstNumber = tan(pow(a+b, 2));
+        double secondNumber = pow(a+1.5, 1.0/3);
+        double thirdNumber = a * pow(b, 5);
+        double fourthNumber = b / log(pow(a, 2));
+        double y = firstNumber - secondNumber + thirdNumber - fourthNumber;
+
+        System.out.println(y);
     }
 }
